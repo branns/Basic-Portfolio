@@ -4,62 +4,64 @@
 <head>
 <meta charset="utf-8">
 	<title>Portfolio</title>
-	<link rel="stylesheet" type="text/css" href="">
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 </head>
 <body>
+	
 	<header>
 		<h1>Brooks Rodriguez</h1>
 		<ul>
-			<li>About</li>
-			<li>Portfolio</li>
-			<li>Contact</li>
+			<li class="tabs"><a href="index.html">About</a></li>
+			<li class="tabs" id="port"><a href="default.asp">Portfolio</a></li>
+			<li class="tabs"><a href="contact.html">Contact</a></li>
 		</ul>
 	
 	</header>
-		<h1>Portfolio</h1>
+	<section id="portfolio">
+		<h2>Portfolio</h2>
 
 		<div class="pimage">
   			<a target="_blank" href="img">
-    		<img src="" alt="Hangman" width="300" height="200">
+    		<img src="img" alt="Hangman">
   			</a>
   		<div class="desc">Hangman</div>
 		</div>
 
 		<div class="pimage">
   			<a target="_blank" href="img">
-    		<img src="img" alt="RPG Game" width="600" height="400">
+    		<img src="img" alt="RPG Game">
   			</a>
   		<div class="desc">RPG Game</div>
 		</div>
 
 		<div class="pimage">
   			<a target="_blank" href="img">
-    		<img src="img" alt="Trivia Game" width="600" height="400">
+    		<img src="img" alt="Trivia Game">
   			</a>
   		<div class="desc">Trivia Game</div>
 		</div>
 
 		<div class="pimage">
   			<a target="_blank" href="img">
-    		<img src="img" alt="Rutgers Info Widget" width="600" height="400">
+    		<img src="img" alt="Rutgers Info Widget">
   			</a>
   		<div class="desc">Rutgers Info Widget</div>
 		</div>
 
 		<div class="pimage">
   			<a target="_blank" href="img">
-    		<img src="img" alt="Rock Paper Scissors" width="600" height="400">
+    		<img src="img" alt="Rock Paper Scissors">
   			</a>
   		<div class="desc">Rock Paper Scissors</div>
 		</div>
+	</section>
 
-
-	</div>
-
-		<h2>Connect with Me</h2>
-			<img src="github.png">
-			<img src="linkedin.png">
-			<img src="stackoverflow.png">
+		<div id="connect">
+			<h3>Connect with Me</h3>
+				<img class="icon" src="./assets/images/github.png" alt="github">
+				<img class="icon" src="./assets/images/linkedin.png" alt="linkedin">
+				<img class="icon" src="./assets/images/stackoverflow.png" alt="stackoverflow">
+		</div>
 
 <footer>
 	&copy; Copyright 2016 BROOKS RODRIGUEZ
